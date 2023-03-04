@@ -1,0 +1,27 @@
+.home-container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("https://thumbs.dreamstime.com/z/project-management-background-icons-133417937.jpg");
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.home-heading {
+    font-family: "Roboto";
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.home-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    
+}

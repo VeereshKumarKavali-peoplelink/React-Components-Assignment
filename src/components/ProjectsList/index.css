@@ -1,0 +1,8 @@
+.projects-list-container {
+    padding: 15px;
+    flex-grow: 1;
+    background-color: lightblue;
+    overflow-y: auto;
+    
+
+}

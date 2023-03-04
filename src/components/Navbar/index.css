@@ -1,0 +1,58 @@
+.navbar-container {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: indigo;
+    position: fixed;
+    width: 100%;
+
+}
+
+.navbar-unordered-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+
+.navbar-home {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+
+.navbar-profile {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    margin-right: 70%;
+}
+
+
+@media screen and (max-width: 768px){
+    .navbar-profile {
+        margin-right: 40%;
+    }
+
+}
+.navbar-logout {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    margin-right: 8%;
+
+}
+
+
+
+.navItem {
+    text-decoration: none;
+    color: var(--baseColor);
+}

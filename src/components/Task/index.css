@@ -1,0 +1,74 @@
+.task-container {
+    border: 1px solid black;
+    padding: 10px;
+    padding-top: 22px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 100%;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .table-styling {
+        width: 30%;
+    }
+}
+
+
+.div1 {
+    border: 1px solid black;
+    width: 180px;
+    height: 20px;
+    padding-left: 12px;
+    padding-right: 10%;
+}
+
+.project-progress-heading {
+    color: black;
+    font-family: "Roboto";
+    font-size: 22px;
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+
+.progress-bar {
+    height: 20px;
+    width: 70%;
+}
+
+
+.task-sub-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+
+
+.input-styling {
+    margin-left: 3%;
+    margin-right: 12%;
+}
+
+.button {
+    border-radius: 12px;
+    height: 30px;
+    width: 90px;
+    background-color: olive;
+    color: white;
+    border-color: olive;
+
+}

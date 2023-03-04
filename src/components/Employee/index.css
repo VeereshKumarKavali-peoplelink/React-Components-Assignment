@@ -1,0 +1,16 @@
+.employee-bg-container {
+  min-height: 100vh;
+  padding-top: 30px;
+}
+
+
+
+.sidebar-projectsList-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+
+
+    
+}
+

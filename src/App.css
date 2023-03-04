@@ -1,3 +1,29 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+.flexCol { display: flex; flex: none; flex-direction: column; width: 100%; }
+.flexRow { display: flex; flex: none; width: 100%; }
+.flexAuto { display: flex; flex: none; min-width: 1px; }
+.flexMinWidth { display: flex; flex: 1; min-width: 0; }
+.flexMinWidthCol { display: flex; flex-direction: column; flex: 1; min-width: 0;}
+.flexMinHeight { display: flex; flex-direction: column; flex: 1; min-height: 0; }
+.flexWrap { flex-wrap: wrap; display: flex; width: 100%; }
+.flexInline { display: flex; flex: none; }
+
+
+.alignCntr { align-items: center; }
+.justifyCntr { justify-content: center; }
+.txtCntr { text-align: center; }
+
+
+
 .App {
   text-align: center;
 }

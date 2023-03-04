@@ -1,0 +1,57 @@
+.sidebar-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    flex-shrink: 0;
+    width: 23%;
+    background-color: olive;
+    padding-left: 20px;
+    
+    
+
+}
+
+@media screen and (max-width: 768px){
+    .sidebar-container {
+        width: 44%;
+    }
+}
+
+.employee-details-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.employee-name {
+    font-weight: 600;
+    font-size: 22px;
+    font-family: "Roboto";
+    color: white;
+}
+
+.username {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: var(--baseColor);
+    padding-bottom: 0px;
+    
+}
+
+.employee-pic {
+    height: 100px;
+    width: 100px;
+}
+
+.manager {
+    font-weight: 600;
+    font-size: 22px;
+    font-family: "Roboto";
+    color: white;
+    margin-top: 20%;
+    margin-bottom: 20%;
+
+}
+

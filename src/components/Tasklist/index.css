@@ -1,0 +1,14 @@
+.tasklist-container {
+    
+    padding: 15px;
+
+}
+
+.tasklist-heading {
+    font-family: "Roboto";
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+
